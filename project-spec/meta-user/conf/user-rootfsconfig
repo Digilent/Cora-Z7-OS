@@ -3,3 +3,10 @@
 
 CONFIG_gpio-demo
 CONFIG_peekpoke
+
+CONFIG_libgpio
+CONFIG_libpwm
+CONFIG_libuio
+
+CONFIG_gpioutil
+CONFIG_pwmdemo
