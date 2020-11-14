@@ -42,7 +42,8 @@
 };
 
 
-&xadc_wiz_0 {
+&amba {
+    xadc_wiz_0 {
 	clocks = <&clkc 15>;
 	xlnx,channels {
 		#address-cells = <1>;
@@ -78,17 +79,14 @@
 			reg = <16>;
 		};
 	};
-};
-
-
-&pwm_rgb {
+    };
+    pwm_rgb {
 	compatible = "generic-uio";	
-};
-
-&axi_gpio_btn {
+    };
+    axi_gpio_btn {
 	compatible = "generic-uio";
-};
-&axi_gpio_shield {
+    };
+    axi_gpio_shield {
 	compatible = "generic-uio";
+    };
 };
-

@@ -1,6 +1,6 @@
 PETALINUX_VER=2020.1
 VALIDATE_HW_CHKSUM=1
-HARDWARE_PATH=/home/bbardi/Work/Cora-Z7-HW/hw_handoff/system_wrapper.xsa
+HARDWARE_PATH=../hw/hw_handoff/system_wrapper.xsa
 HARDWARE_CHECKSUM=6dcc37b94fab766ac9807706b402ad7d
 YOCTO_SDK=ec2933eff44b6c49df87d39a9666aafb
 RFSCONFIG_CHKSUM=efeaae15f26ffcf8fe97a0dc65becca7
